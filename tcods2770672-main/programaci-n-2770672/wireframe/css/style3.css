@@ -1,0 +1,96 @@
+
+body {
+    font-family: poppins;
+    background: linear-gradient(#313B50, #000000 70%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.module {
+    font-size: 20px;
+    color: #a35858;
+    text-transform: uppercase;
+    margin: 2.4rem 0;
+}
+
+table {
+    color: rgb(2, 2, 2);
+    border-collapse: collapse;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+tr {
+    background-color: rgb(85, 89, 94);
+    display: flex;
+    box-shadow: 2px 2px 2px rgb(219, 217, 217);
+    justify-content: center;
+    align-items: center;
+}
+
+tr:nth-last-child(even) {
+    background-color: #7c7676;
+}
+
+td {
+    padding: 10px;
+}
+
+td a {
+    text-decoration: none;
+}
+
+img {
+    transform: scale(0.9);
+    transition: all 0.2s ease-in;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+h3 {
+    color: white;
+    text-shadow: 5px 12px 5px black;
+}
+
+h1 {
+    text-shadow: 5px 12px 5px black;
+}
+
+p {
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambio */
+}
+
+p:hover {
+    transform: rotate(280deg); /* Hace que la imagen gire 360 grados al pasar el cursor */
+}
+
+.add{
+    background-color: rgb(58, 86, 99);
+    border-radius: 20px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    box-shadow: 8px 8px 8px rgb(31, 32, 32);
+    transition: all 0.4s ease-in;
+    &:is(:hover){
+        transform: scale(1.05);
+    }
+}

@@ -1,0 +1,79 @@
+body {
+    font-family: poppins;
+    background: linear-gradient(#313B50, #000000 70%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.module {
+    font-size: 20px;
+    color: #a35858;
+    text-transform: uppercase;
+    margin: 2.4rem 0;
+}
+
+table {
+    color: rgb(2, 2, 2);
+    border-collapse: collapse;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+tr {
+    background-color: rgb(85, 89, 94);
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(10, 54, 90);
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    background: linear-gradient(rgba(173, 102, 102, 1), rgba(173, 165, 165, 0.767) 70%);
+}
+
+
+
+td {
+    padding: 10px;
+}
+
+td a {
+    text-decoration: none;
+}
+
+img {
+    transform: scale(0.9);
+    transition: all 0.2s ease-in;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+h3 {
+    color: white;
+    text-shadow: 5px 12px 5px black;
+}
+
+h1 {
+    text-shadow: 5px 12px 5px black;
+}
+
+p {
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambio */
+}
+
+p:hover {
+    transform: rotate(280deg); /* Hace que la imagen gire 360 grados al pasar el cursor */
+}
